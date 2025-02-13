@@ -1,0 +1,26 @@
+POST http://localhost:3001/api/users/register
+content-type: application/json
+
+{
+    "firstname": "ganzo",
+    "lastname": "dorj",
+    "email": "ganzo@gay.com",
+    "password": "whatever"
+}
+###
+
+GET http://localhost:3001/api/users/
+
+###
+POST http://localhost:3001/api/users/login
+content-type: application/json
+
+{
+    "email": "limlei2@outlook.com",
+    "password": "whatever"
+}
+
+###
+
+GET http://localhost:3001/api/items/656051ee92023c8ae83728ad
+content-type: application/json
