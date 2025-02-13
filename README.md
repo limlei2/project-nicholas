@@ -44,9 +44,3 @@ I seperated the backend and the frontend of the application into two different r
 **Task:** Describe the contribution of each team member to the project. Please provide the full name of each team member (but no student number). 
 
 Lim Lei - All work and code were done by me.
-
-# One more thing? 
-
-**Task:** Any additional comment you want to share with the course staff? 
-
-It was very difficult to meet all the goals from the project proposal and build the high level webpage that I had hoped to build as I had to work on the group project purely by myself. My other group member was not responsive at all throughout the whole project phase and did not contribute anything to the project. All coding commits and work were done by me.
