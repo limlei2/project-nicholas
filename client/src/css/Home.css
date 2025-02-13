@@ -1,0 +1,54 @@
+@import url('https://fonts.googleapis.com/css2?family=Raleway:wght@500&display=swap');
+
+* {
+    box-sizing: border-box;
+    margin: 0;
+    padding: 0;
+    background-color: #24252A;
+}
+
+h1, h2, h3, h4 {
+    font-family: "Raleway", sans-serif;
+    font-weight: 500;
+}
+
+.welcome_message {
+    padding: 10px 50px;
+}
+
+.welcome_message h1 {
+    padding: 5px;
+    font-size: 16px;
+}
+
+.items {
+    padding: 30px 50px;
+    display: flex;
+    flex-wrap: wrap;
+    justify-content: center;
+    align-items: baseline;
+}
+
+.item {
+    padding: 10px 20px;
+    width: 260px;
+}
+
+.item img {
+    width: 200px;
+    cursor: pointer;
+}
+
+.item h3 {
+    font-size: 20px;
+    font-weight: 700;
+}
+
+.marketplace_header {
+    padding: 20px 50px;
+    border: 2px solid white;
+}
+
+.marketplace_header h1{
+    font-size: 30px;
+}

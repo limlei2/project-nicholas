@@ -1,0 +1,105 @@
+.buynow {
+    display: flex;
+    justify-content: space-between;
+    flex-direction: row;
+}
+
+.checkouttext {
+    margin-left: 10%;
+    margin-top: 20px;
+    font-size: 46px;
+    font-weight: bold;
+}
+
+.buynowform {
+    margin-top: 20px;
+    margin-left: 10%;
+    margin-right: 10%;
+    width: 50%;
+    display:flex;
+    justify-content: center;
+}
+
+.buynowform h1 {
+    font-weight: bold;
+    padding: 12px 0px;
+}
+
+.buynowform .name {
+    display: flex;
+    flex-direction: row;
+}
+
+.buynowform .CVVExpiry {
+    display: flex;
+    flex-direction: row;
+}
+
+.buynowform input[type=text]{
+    width: 100%;
+    margin-bottom: 20px;
+    padding: 12px;
+    border: 1px solid #ccc;
+    border-radius: 3px;
+}
+
+.buynowform input[type=email]{
+    width: 100%;
+    margin-bottom: 20px;
+    padding: 12px;
+    border: 1px solid #ccc;
+    border-radius: 3px;
+}
+
+.itemdisplay {
+    width: 50%;
+    float: right;
+    margin-top: 20px;
+    margin-left: 10%;
+    margin-right: 10%;
+}
+
+.itemdisplay h1{
+    font-size: 36px;
+    font-weight: bold;
+}
+
+.itemdisplay h3{
+    padding: 12px 0px;
+}
+
+.itemdisplay img {
+    width: 200px;
+}
+
+.itemdisplay_price {
+    display: flex;
+    justify-content: space-between;
+    flex-direction: row;
+}
+
+.itemdisplay_totalprice {
+    display: flex;
+    justify-content: space-between;
+    flex-direction: row;
+}
+
+.itemdisplay_totalprice h2 {
+    padding: 12px 0px 40px 0px;
+    font-weight: bold;
+    font-size: 28px;
+}
+
+.itemdisplay_item {
+    display: flex;
+    justify-content: flex-start;
+    flex-direction: row;
+}
+
+.itemdisplay_iteminfo h3{
+    padding: 20px 12px;
+}
+
+.itemdisplay_iteminfo h4{
+    padding: 0px 12px;
+}
